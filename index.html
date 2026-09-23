@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança Digital para a Melhor Idade</title>
+    <style>
+        /* CONFIGURAÇÕES GERAIS E ACESSIBILIDADE */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* Fundo escuro para conforto visual */
+            color: #FFFFFF; /* Texto branco para alto contraste */
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* TOPO DO APLICATIVO */
+        header {
+            text-align: center;
+            padding: 30px 10px;
+            background-color: #1A237E; /* Azul escuro seguro */
+            border-radius: 15px;
+            margin-bottom: 25px;
+            border: 3px solid #303F9F;
+        }
+
+        h1 {
+            font-size: 32px; /* Fonte bem grande */
+            margin-bottom: 10px;
+            color: #FFF;
+        }
+
+        .subtitulo {
+            font-size: 20px;
+            color: #E0E0E0;
+        }
+
+        /* CARD DE INTRODUÇÃO */
+        .intro {
+            background-color: #1E1E1E;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            border-left: 8px solid #FFD54F; /* Detalhe em amarelo para atenção */
+        }
+
+        .intro p {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        /* CONTEÚDO PRINCIPAL (DICAS) */
+        .container-dicas {
+            display: flex;
+            flex-direction: column;
+            gap: 25px; /* Espaço grande entre as dicas */
+        }
+
+        .card-dica {
+            background-color: #1E1E1E;
+            border: 3px solid #424242;
+            border-radius: 15px;
+            padding: 25px;
+        }
+
+        /* ESTILO DOS BOTÕES/TAGS DE ALERTA */
+        .alerta-verde {
+            background-color: #2E7D32;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .alerta-vermelho {
+            background-color: #C62828;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 26px;
+            margin-bottom: 15px;
+            color: #FFD54F; /* Amarelo claro de fácil leitura */
+        }
+
+        p {
+            font-size: 20px; /* Tamanho ideal para leitura sem esforço */
+            color: #E0E0E0;
+            margin-bottom: 15px;
+        }
+
+        /* BOTÃO DE AÇÃO GRANDE */
+        .botao-ajuda {
+            display: block;
+            width: 100%;
+            background-color: #FFD54F;
+            color: #000000;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 15px;
+            margin-top: 30px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .botao-ajuda:hover, .botao-ajuda:focus {
+            background-color: #FFC107;
+            outline: 4px solid #FFF; /* Facilita a navegação por teclado */
+        }
+
+        /* RODAPÉ */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            font-size: 18px;
+            color: #9E9E9E;
+            border-top: 1px solid #424242;
+        }
+
+        /* AJUSTE PARA TELAS GRANDES (TABLETS E COMPUTADORES) */
+        @media (min-width: 600px) {
+            body {
+                max-width: 700px;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Guia de Segurança Digital</h1>
+        <p class="subtitulo">Aprenda a navegar na internet com proteção e tranquilidade.</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <p>Atenção: A internet é maravilhosa, mas precisamos ter cuidado com os espertalhões. Siga as dicas abaixo para se proteger!</p>
+        </section>
+
+        <section class="container-dicas">
+            
+            <!-- DICA 1 -->
+            <article class="card-dica">
+                <span class="alerta-vermelho">Cuidado!</span>
+                <h2>1. Mensagens de Bancos ou Prêmios</h2>
+                <p>Se você receber uma mensagem no WhatsApp ou SMS dizendo que sua conta do banco foi bloqueada, ou que você ganhou um sorteio, <strong>não clique em nenhum link</strong>.</p>
+                <p>Os bancos de verdade nunca mandam links pedindo suas senhas por mensagem.</p>
+            </article>
+
+            <!-- DICA 2 -->
+            <article class="card-dica">
+                <span class="alerta-verde">Dica de Ouro</span>
+                <h2>2. Crie Senhas Fortes</h2>
+                <p>Evite usar sua data de nascimento, nome de netos ou sequências simples como "123456" para suas senhas.</p>
+                <p><strong>Uma boa ideia:</strong> Misture o nome de uma comida que você gosta com um ano antigo. Exemplo: <i>Feijoada#1975</i>. Anote em um caderninho físico em sua casa.</p>
+            </article>
+
+            <!-- DICA 3 -->
+            <article class="card-dica">
+                <span class="alerta-vermelho">Atenção!</span>
+                <h2>3. O golpe do "Novo Número"</h2>
+                <p>Se algum familiar ou amigo mandar mensagem dizendo que mudou de número de telefone e pedir dinheiro emprestado, <strong>pare tudo!</strong></p>
+                <p>Ligue imediatamente para o número antigo dessa pessoa ou faça uma chamada de vídeo para confirmar se é ela mesma antes de enviar qualquer valor.</p>
+            </article>
+
+            <!-- DICA 4 -->
+            <article class="card-dica">
+                <span class="alerta-verde">Segurança</span>
+                <h2>4. Compras na Internet</h2>
+                <p>Antes de comprar em um site, verifique se ele tem o desenho de um <strong>pequeno cadeado fechado</strong> lá em cima, ao lado do endereço do site. Esse cadeado mostra que o site protege seus dados.</p>
+            </article>
+
+        </section>
+
+        <!-- BOTÃO DE SUPORTE -->
+        <button class="botao-ajuda" onclick="alert('Dica: Sempre que tiver dúvidas, chame um filho, neto ou alguém de sua total confiança para te ajudar!')">
+            Fiquei com dúvida. O que fazer?
+        </button>
+    </main>
+
+    <footer>
+        <p>Compartilhe este aplicativo com seus amigos e proteja quem você ama.</p>
+    </footer>
+
+</body>
+</html>
